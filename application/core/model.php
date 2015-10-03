@@ -3,11 +3,11 @@ class Model
 {
     protected $db;
     public function __construct() {
-        $host        = "anton.hadver.ru";
+        $host = "host";
         $port        = "5432";
-        $dbname      = "anton";
-        $user        = "anton";
-        $password    = "dUfEdEcH7cat";
+        $dbname = "dbname";
+        $user = "username";
+        $password = "password";
 
         $dsn = "pgsql:host=$host;port=$port;dbname=$dbname;user=$user;password=$password";
         $opt = array(
